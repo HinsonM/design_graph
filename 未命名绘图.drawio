@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T09:54:31.476Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.1.9" etag="464BqbG6xfa7sJLzQgef" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-19T10:24:38.304Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="_coxNg7GGJ9J76gqGyxV" version="21.1.9" type="github">
   <diagram name="第 1 页" id="5OKUYptA2S1OkAVgpH-_">
-    <mxGraphModel>
+    <mxGraphModel dx="2263" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="diKj9ds8iJZekjpPntIM-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1;rounded=1;strokeColor=default;gradientColor=none;fillColor=none;perimeterSpacing=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1071" y="20" width="340" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="diKj9ds8iJZekjpPntIM-3" value="Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="740" y="80" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="diKj9ds8iJZekjpPntIM-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="diKj9ds8iJZekjpPntIM-4" target="diKj9ds8iJZekjpPntIM-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="diKj9ds8iJZekjpPntIM-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Controller&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="diKj9ds8iJZekjpPntIM-9" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;RateLimitingRules&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="550" y="585" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="diKj9ds8iJZekjpPntIM-10" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="440" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="diKj9ds8iJZekjpPntIM-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="diKj9ds8iJZekjpPntIM-11" target="diKj9ds8iJZekjpPntIM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="diKj9ds8iJZekjpPntIM-11" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="460" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="diKj9ds8iJZekjpPntIM-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="diKj9ds8iJZekjpPntIM-22" target="diKj9ds8iJZekjpPntIM-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="diKj9ds8iJZekjpPntIM-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="diKj9ds8iJZekjpPntIM-22" target="diKj9ds8iJZekjpPntIM-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="diKj9ds8iJZekjpPntIM-22" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;RuleUpdater&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="597.5" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="diKj9ds8iJZekjpPntIM-24" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Cache&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="280" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="diKj9ds8iJZekjpPntIM-30" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Controller&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="diKj9ds8iJZekjpPntIM-32" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Controller&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="diKj9ds8iJZekjpPntIM-34" value="例如是令牌桐算法，并且 maxsize=5, rate=3tokens/second" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="535" y="680" width="110" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
