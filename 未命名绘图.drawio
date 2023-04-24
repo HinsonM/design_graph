@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T12:50:36.287Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="-deR1lMKy3elPGE4ZBmZ" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T12:51:01.197Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="q8gKqAUNNk7sm2Yb3-Ka" version="21.2.1" type="github">
   <diagram name="第 1 页" id="5OKUYptA2S1OkAVgpH-_">
     <mxGraphModel dx="3011" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
         <mxCell id="79BBLpLDC6vlutmIAnCw-33" value="Alert&lt;br&gt;DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-1070" y="450" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="79BBLpLDC6vlutmIAnCw-42" value="监控与告警&lt;br&gt;系统" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="79BBLpLDC6vlutmIAnCw-42" value="聊天系统" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-1380" y="310" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
